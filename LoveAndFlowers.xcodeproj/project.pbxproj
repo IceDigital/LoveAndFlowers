@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7C949BE51E10FF81004C18EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C949BE41E10FF81004C18EB /* AppDelegate.swift */; };
-		7C949BE71E10FF81004C18EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C949BE61E10FF81004C18EB /* ViewController.swift */; };
+		7C949BE71E10FF81004C18EB /* IDCatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C949BE61E10FF81004C18EB /* IDCatalogViewController.swift */; };
 		7C949BEA1E10FF81004C18EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C949BE81E10FF81004C18EB /* Main.storyboard */; };
 		7C949BEC1E10FF81004C18EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C949BEB1E10FF81004C18EB /* Assets.xcassets */; };
 		7C949BEF1E10FF81004C18EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C949BED1E10FF81004C18EB /* LaunchScreen.storyboard */; };
+		7CF694E11E111B4D0091F0F0 /* IDScrollContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694E01E111B4D0091F0F0 /* IDScrollContainerView.swift */; };
+		7CF694E31E1686F00091F0F0 /* UIScrollView+CurrentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694E21E1686F00091F0F0 /* UIScrollView+CurrentPage.swift */; };
+		7CF694E51E16A36D0091F0F0 /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694E41E16A36D0091F0F0 /* CatalogCell.swift */; };
+		7CF694E71E175BB20091F0F0 /* catalog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CF694E61E175BB20091F0F0 /* catalog.bundle */; };
+		7CF694E91E178BA80091F0F0 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694E81E178BA80091F0F0 /* MainNavigationController.swift */; };
+		7CF694EF1E178D000091F0F0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF694EE1E178D000091F0F0 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C949BE11E10FF81004C18EB /* LoveAndFlowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveAndFlowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C949BE41E10FF81004C18EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C949BE61E10FF81004C18EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C949BE61E10FF81004C18EB /* IDCatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCatalogViewController.swift; sourceTree = "<group>"; };
 		7C949BE91E10FF81004C18EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C949BEB1E10FF81004C18EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C949BEE1E10FF81004C18EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C949BF01E10FF81004C18EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF694E01E111B4D0091F0F0 /* IDScrollContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDScrollContainerView.swift; sourceTree = "<group>"; };
+		7CF694E21E1686F00091F0F0 /* UIScrollView+CurrentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+CurrentPage.swift"; sourceTree = "<group>"; };
+		7CF694E41E16A36D0091F0F0 /* CatalogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		7CF694E61E175BB20091F0F0 /* catalog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = catalog.bundle; sourceTree = SOURCE_ROOT; };
+		7CF694E81E178BA80091F0F0 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		7CF694EE1E178D000091F0F0 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				7C949BE41E10FF81004C18EB /* AppDelegate.swift */,
-				7C949BE61E10FF81004C18EB /* ViewController.swift */,
+				7C949BE61E10FF81004C18EB /* IDCatalogViewController.swift */,
+				7CF694E21E1686F00091F0F0 /* UIScrollView+CurrentPage.swift */,
+				7CF694E01E111B4D0091F0F0 /* IDScrollContainerView.swift */,
+				7CF694E81E178BA80091F0F0 /* MainNavigationController.swift */,
+				7CF694EE1E178D000091F0F0 /* MenuView.swift */,
+				7CF694E41E16A36D0091F0F0 /* CatalogCell.swift */,
 				7C949BE81E10FF81004C18EB /* Main.storyboard */,
 				7C949BEB1E10FF81004C18EB /* Assets.xcassets */,
 				7C949BED1E10FF81004C18EB /* LaunchScreen.storyboard */,
 				7C949BF01E10FF81004C18EB /* Info.plist */,
+				7CF694E61E175BB20091F0F0 /* catalog.bundle */,
 			);
 			path = LoveAndFlowers;
 			sourceTree = "<group>";
@@ -96,7 +114,7 @@
 				TargetAttributes = {
 					7C949BE01E10FF81004C18EB = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = C89S8U8VJ4;
+						DevelopmentTeam = JP486R239F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C949BEF1E10FF81004C18EB /* LaunchScreen.storyboard in Resources */,
+				7CF694E71E175BB20091F0F0 /* catalog.bundle in Resources */,
 				7C949BEC1E10FF81004C18EB /* Assets.xcassets in Resources */,
 				7C949BEA1E10FF81004C18EB /* Main.storyboard in Resources */,
 			);
@@ -137,7 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C949BE71E10FF81004C18EB /* ViewController.swift in Sources */,
+				7CF694EF1E178D000091F0F0 /* MenuView.swift in Sources */,
+				7CF694E91E178BA80091F0F0 /* MainNavigationController.swift in Sources */,
+				7CF694E31E1686F00091F0F0 /* UIScrollView+CurrentPage.swift in Sources */,
+				7CF694E51E16A36D0091F0F0 /* CatalogCell.swift in Sources */,
+				7C949BE71E10FF81004C18EB /* IDCatalogViewController.swift in Sources */,
+				7CF694E11E111B4D0091F0F0 /* IDScrollContainerView.swift in Sources */,
 				7C949BE51E10FF81004C18EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C89S8U8VJ4;
+				DEVELOPMENT_TEAM = JP486R239F;
 				INFOPLIST_FILE = LoveAndFlowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icedigital.LoveAndFlowers;
@@ -272,7 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C89S8U8VJ4;
+				DEVELOPMENT_TEAM = JP486R239F;
 				INFOPLIST_FILE = LoveAndFlowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icedigital.LoveAndFlowers;
@@ -300,6 +324,7 @@
 				7C949BF51E10FF81004C18EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
